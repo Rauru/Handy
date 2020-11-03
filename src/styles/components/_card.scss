@@ -1,0 +1,24 @@
+.images-card {
+    max-width: 20rem;
+    height: 20rem;
+    max-height: 20rem;
+}
+
+.card{
+    font-family: $regular-font;
+    margin: 5% 0 25% 25%;
+    width: 20rem;
+    height: 40rem;
+}
+
+.card-purchase-title{
+    font-size: $xxs-size;
+}
+
+.card-purchase-body{
+    font-size: $xs-size;
+}
+
+.purchase-row{
+    padding-bottom: 12%;
+}
