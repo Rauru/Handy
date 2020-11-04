@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Purchase from "./components/Purchase";
+import Purchaseview from "./components/Purchaseview";
 import reportWebVitals from "./reportWebVitals";
 import "normalize.css/normalize.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -17,7 +17,7 @@ const routes = (
   <BrowserRouter>
     <Switch>
       <Route path="/" component={App} exact={true} />
-      <Route path="/purchase" component={Purchase} />
+      <Route path="/purchase" component={Purchaseview} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
