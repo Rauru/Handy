@@ -27,12 +27,12 @@ const Header = props => {
               type="text"
               placeholder="Busqueda"
             />
-            <Button className="navbar-button" variant="outline-success">
+            <Button className="navbar-button" variant="warning">
               Busqueda
             </Button>
           </Form>
           <Form inline>
-            <Button className="navbar-button" variant="outline-success">
+            <Button className="navbar-button" variant="warning">
               Ingresar
             </Button>
           </Form>

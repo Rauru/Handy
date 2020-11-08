@@ -13,7 +13,7 @@ const CarouselMain = props => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 caroulsel-products"
             src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg"
             alt="First slide"
           />

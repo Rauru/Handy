@@ -1,0 +1,27 @@
+.input-gourp-product{
+    font-family: $regular-font;
+    font-size: $xxs-size;
+    margin-left: 25%;
+    width: 50%;
+    min-height: 100%;
+    padding: 0;
+}
+
+.color-input-group{
+    color: $normal-white !important;
+    border-color: $normal-white;
+    background-color: $normal-yellow !important;
+}
+
+.textarea-input-group{
+    min-height: 3rem;
+}
+
+.button-input{
+    font-family: $regular-font;
+    color: $normal-white !important;
+    background-color: $normal-yellow !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

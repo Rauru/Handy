@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Purchaseview from "./components/Purchaseview";
+import ProductEntryView from "./components/ProductEntryView";
 import reportWebVitals from "./reportWebVitals";
 import "normalize.css/normalize.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -18,6 +19,7 @@ const routes = (
     <Switch>
       <Route path="/" component={App} exact={true} />
       <Route path="/purchase" component={Purchaseview} />
+      <Route path="/productentry" component={ProductEntryView} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
