@@ -6,7 +6,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
-
+import HandyTextLogo from "./HANDYTEXTOLOGO.png";
+import { Link } from "react-router-dom";
+ 
 const HeaderModal = () => {
   return <div>Some Text</div>;
 };
@@ -16,7 +18,9 @@ const Header = props => {
     <div className="Header">
       <Navbar className="navbar" expand="lg">
         <Navbar.Brand className="navbar-brand" href="/">
-          Handy
+          <Link to="/">
+            <img className="handylogotext" src={HandyTextLogo} />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -32,9 +36,9 @@ const Header = props => {
             </Button>
           </Form>
           <Form inline>
-            <Button className="navbar-button" variant="warning">
-              Ingresar
-            </Button>
+            <Link to="/login">
+              <Button className="navbar-button" variant="warning">Ingresar</Button>
+            </Link>
           </Form>
         </Navbar.Collapse>
       </Navbar>

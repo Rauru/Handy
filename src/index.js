@@ -5,8 +5,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import Login from "./components/LoginView"
 import Purchaseview from "./components/Purchaseview";
 import ProductEntryView from "./components/ProductEntryView";
+import CheckOut from "./components/CheckOut";
 import reportWebVitals from "./reportWebVitals";
 import "normalize.css/normalize.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -18,8 +20,10 @@ const routes = (
   <BrowserRouter>
     <Switch>
       <Route path="/" component={App} exact={true} />
+      <Route path="/login" component={Login} />
       <Route path="/purchase" component={Purchaseview} />
       <Route path="/productentry" component={ProductEntryView} />
+      <Route path="/checkout" component={CheckOut} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>

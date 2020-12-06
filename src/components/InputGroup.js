@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "../styles/styles.scss";
-import InputGroup from 'react-bootstrap/InputGroup'
+import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import { MDBBtn } from "mdbreact";
@@ -11,9 +11,9 @@ const InputGroupProduct = props => {
         <div>
             <InputGroup className="input-gourp-product">
                 <InputGroup.Prepend>
-                    <InputGroup.Text className="color-input-group" id="inputGroup-sizing-default">Titulo del Producto:</InputGroup.Text>
+                    <InputGroup.Text className="color-inputgroup-login" id="inputGroup-sizing-default">Titulo del Producto:</InputGroup.Text>
                 </InputGroup.Prepend>
-                <FormControl className="color-input-group"
+                <FormControl className="color-inputgroup-login"
                     aria-label="Default"
                     aria-describedby="inputGroup-sizing-default"
                 />

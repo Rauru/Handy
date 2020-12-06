@@ -1,11 +1,9 @@
 import React from "react";
 import "../styles/styles.scss";
 import Carousel from "react-bootstrap/Carousel";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Nav from "react-bootstrap/Nav";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
+import HerramientasHandy from "../Herramientas Handy.png";
+import TienesHerramientas from "../Tienes Herramientas.png";
+import MisionHandy from "../Mision Handy.png"
 
 const CarouselMain = props => {
   return (
@@ -14,38 +12,36 @@ const CarouselMain = props => {
         <Carousel.Item>
           <img
             className="d-block w-100 caroulsel-products"
-            src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg"
+            src={HerramientasHandy}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Herramientas Handy</h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg"
+            src={TienesHerramientas}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Tienes Herramientas</h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg"
+            src={MisionHandy}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Mision Handy</h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
