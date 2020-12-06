@@ -2,14 +2,15 @@
   font-size: $s-size;
   width: 250px;
   height: 250px;
-  background-color: $mint-green !important;
-  border-color: $mint-green !important;
+  -webkit-text-stroke: 1px black;
+  background-color: $normal-yellow !important;
+  border-color: $normal-yellow !important;
 }
 
 .col {
   padding: 1rem;
-  background-color: white;
-  border: 0px solid #fff;
+  background-color: $normal-white;
+  border: 0px solid $normal-white;
   // color: #fff;
   text-align: center;
   width: 200px;
@@ -20,4 +21,53 @@
   padding: 0;
   margin: 0;
   max-width: 300rem;
+}
+
+.button-tecnologia{
+  background: url(https://www.ejemplode.com/images/uploads/ciencia/caracteristicas_tecnologia-servicio.jpg?1560186084757);
+}
+
+.button-arteymusica{
+  background: url(https://scontent.ftgu3-1.fna.fbcdn.net/v/t1.0-9/38926456_2016963331696292_6286768086146088960_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=0IzUGB7Xh0gAX8iBn3A&_nc_ht=scontent.ftgu3-1.fna&oh=0ae675190fa037fd16509d93fce1f343&oe=5FCBF3B2);
+  background-size: 250px 260px ;
+}
+
+.button-repuestos{
+  background: url(https://www.flaticon.es/premium-icon/icons/svg/1046/1046566.svg);
+  background-size: 360px;
+  background-position: center;
+}
+
+.button-industrial{
+  background: url(https://image.freepik.com/vector-gratis/fabrica-industrial-inteligente-estilo-plano_36082-341.jpg);
+  background-size: 375px;
+  background-position: center;
+}
+
+.button-domestico{
+  background: url(https://image.freepik.com/vector-gratis/ilustracion-salon-dibujos-animados-anos-80-90-videojuegos-grabadora-vhs-ninos_1441-2362.jpg);
+  background-size: 335px;
+}
+
+.button-audiovisual{
+  background: url(https://blog.hotmart.com/blog/2019/04/BLOG_produccion-audiovisual.png);
+  background-size: 305px;
+  background-position: center;
+}
+
+.button-educacion{
+  background: url(https://image.freepik.com/vector-gratis/concepto-moderno-educacion-diseno-plano_23-2147919753.jpg);
+  background-size: 300px;
+  background-position: center;
+}
+
+.button-recreacion{
+  background: url(https://image.freepik.com/vector-gratis/conjunto-ilustracion-camping-square_1284-34360.jpg);
+  background-size: 500px;
+  // background-position: bottom;
+}
+
+.button-mecanica{
+  background: url(https://as1.ftcdn.net/jpg/03/37/91/04/500_F_337910461_LNwkJ2cZoL0ccjEAp9pkuaaZ9a65aeAl.jpg);
+  background-size: 250px;
 }

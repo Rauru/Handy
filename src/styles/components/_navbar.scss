@@ -1,10 +1,10 @@
 .navbar {
   min-height: 100px;
-  background-color: $normal-orange;
-  color: white;
+  background-color: $normal-yellow;
+  color: $normal-white;
 }
 .navbar-light .navbar-brand {
-  color: white;
+  color: $normal-white;
   font-size: $xl-size;
   padding: 0 15px;
   height: 80px;
@@ -23,17 +23,17 @@
 
 .navbar-button {
   font-size: $xxs-size;
-  background-color: $mint-green !important;
-  border-color: $mint-green !important;
+  background-color: $normal-yellow !important;
+  border-color: $normal-yellow !important;
   margin-right: 150px;
-  color: white !important;
+  color: $normal-white !important;
 }
 
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
   padding: 9px 10px !important;
-  color: white;
+  color: $normal-white;
 }
 
 @media (min-width: 768px) {
@@ -42,6 +42,6 @@
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 27px;
-    color: white;
+    color: $normal-white;
   }
 }

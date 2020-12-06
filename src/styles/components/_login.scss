@@ -1,0 +1,68 @@
+.container-login{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-logo{
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.input-gourp-login{
+    font-family: $regular-font;
+    font-size: $xxs-size;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    min-height: 100%;
+    padding: 0;
+}
+
+.forgotlogin{
+    font-family: $regular-font;
+    margin-left: 47%;
+}
+
+.login-copyright{
+    font-family: $regular-font;
+    font-size: $xxxs-size;
+    display: block;
+    align-items: center;
+    margin-top: 101%;
+    margin-left: 36%;
+    // margin-right: 50%;
+}
+
+.color-inputgroup-login{
+    color: $normal-white !important;
+    border-color: $normal-white;
+    background-color: $normal-yellow !important;
+}
+
+.button-login{
+    font-family: $regular-font;
+    color: $normal-white !important;
+    background-color: $normal-yellow !important;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-login-socialmedia{
+    font-family: $regular-font;
+    color: $normal-white !important;
+    background-color: $normal-yellow !important;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23rem;
+}
+

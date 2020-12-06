@@ -1,6 +1,6 @@
 .header {
-  background: $strong-orange;
-  color: white;
+  background-color: $strong-orange;
+  color: $normal-white;
   height: 100rem;
   padding: $m-size 0;
 }
@@ -15,4 +15,8 @@
   font-size: $m-size;
   font-weight: 500;
   margin: 0;
+}
+
+.handylogotext{
+  height: 90px;
 }

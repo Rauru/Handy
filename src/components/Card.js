@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/styles.scss";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import Button from "react-bootstrap/Button";
+import { Link } from 'react-router-dom';
 
 const Card = props => {
   return (
@@ -14,7 +16,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">CALCULADOR TEXAS VOYAGE 200</h5>
                   <p class="card-text" className="card-purchase-body">L.200/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/checkout">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -27,7 +31,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">TI Nspire CX CAS</h5>
                   <p class="card-text" className="card-purchase-body">L.150/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -40,7 +46,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">Raspberry Pi 4 Model B</h5>
                   <p class="card-text" className="card-purchase-body">L.300/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -55,7 +63,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">Raspberry Pi 3 Model B+</h5>
                   <p class="card-text" className="card-purchase-body">L.300/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -68,7 +78,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">ARDUINO LEONARDO</h5>
                   <p class="card-text" className="card-purchase-body">L.300/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -81,7 +93,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">ARDUINO UNO REV3</h5>
                   <p class="card-text" className="card-purchase-body">L.350/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -96,7 +110,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">Servidor Dell PowerEdge R740</h5>
                   <p class="card-text" className="card-purchase-body">L.3000/Mes</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -109,7 +125,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">Voltimetro</h5>
                   <p class="card-text" className="card-purchase-body">L.100/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
@@ -122,7 +140,9 @@ const Card = props => {
                   <h5 class="card-title" className="card-purchase-title">Cautin</h5>
                   <p class="card-text" className="card-purchase-body">L.50/Dia</p>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <Link to="/">
+                  <Button className="card-button" variant="warning">Ver Producto</Button>
+                </Link>
                 <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
